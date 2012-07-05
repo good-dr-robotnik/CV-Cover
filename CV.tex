@@ -1,5 +1,6 @@
 
 \documentclass[11pt, letterpaper]{moderncv}
+\documentclass[11pt, a4paper]{moderncv}
 
 % moderncv themes
 %\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
@@ -10,14 +11,18 @@
 
 % adjust the page margins
 \usepackage[scale=.96]{geometry}
+\usepackage[scale=.90]{geometry}
 \recomputelengths                                       % required when changes are made to page layout lengths
 
+%\usepackage{microtype}
 % personal data
 \firstname{Brian}
 \familyname{Beatty}
 \title{Curriculum Vit\ae}               % optional, remove the line if not wanted
 \address{\hspace{-1in}Via Luciano Zuccoli, 19}{Milano - MI - Italy}    % optional, remove the line if not wanted
 \mobile{Mobile +39 (388) 161-2448}
+\address{\hspace{-1in}Via Luciano Zuccoli, 19}{Milano, MI, Italia}    % optional, remove the line if not wanted
+\mobile{Mobile~+39~(388)~161-2448}
 %\email{Beatty.Brian@gmail.com}
 \email{Brian.R.Beatty@drexel.edu}                      % optional, remove the line if not wanted
 %\extrainfo{additional information (optional)}    % optional, remove the line if not wanted
@@ -32,6 +37,7 @@
 \begin{document}
 \maketitle
 
+\vspace{-0.5cm}
 \section{Education}
 
 \cventry{2011-Present}{Master's Degree Studies in Materials Science (Dual Degree)}{Politecnico di Milano}{Milan}{Italy}{Attended for academic year 2011-2012 as part of EAGLES International Exchange Program}  
@@ -79,6 +85,7 @@
 %%%%%%%% EQUIPMENT TRAINING %%%%%%%%%%%%%%%%
 
 \section{Equipment Training}
+\section{Equipment Experience}
 \cventry{\textbf{Thin Film Deposition}}{\textmd{Atomic Layer Deposition (ALD)}}{\textup{Chemical Vapor Deposition (CVD), Pulsed Laser Deposition (PLD), \mbox{Molecular} Beam Epitaxy (MBE)}}{}{}{}
 
 \cventry{\textbf{Film Quantification}}{\textmd{X-Ray Diffraction (XRD)}}{\textup{X-Ray Reflectivity (XRR), Scanning Electron Microscopy (SEM), Energy-Dispersive X-Ray Spectroscopy (EDXS), X-Ray Fluorescence (XRF), Ellipsometry, Rutherford Backscattering \mbox{Spectroscopy}}}{}{}{}
@@ -104,8 +111,10 @@
 
 \section{Spoken Languages}
 \cvlanguage{English}{Native}{} 
+\cvlanguage{English}{Native}{}  \vspace{0.5em}
 
 \cvlanguage{Spanish}{Speaking: Moderate \\ Reading: Elementary  \\ Writing: Elementary}{} \vspace{5mm}
+\cvlanguage{Spanish}{Speaking: Moderate \\ Reading: Elementary  \\ Writing: Elementary}{} \vspace{0.5em}
 
 \cvlanguage{Italian}{Speaking: Elementary \\ Reading: Elementary  \\ Writing: Elementary}{}
 
