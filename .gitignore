@@ -1,3 +1,5 @@
+.DS_Store
+*.lor
 *.aux
 *.bbl
 *.blg
@@ -25,3 +27,4 @@
 *.maf
 *.mtc
 *.mtc0
+*.svn
